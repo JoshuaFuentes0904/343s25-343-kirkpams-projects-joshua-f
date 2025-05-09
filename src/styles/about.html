@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Joshua Fuentes">
+  <title>Easy Music</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <img src="/src/images/logo.png" alt="Easy Music Logo" class="logo-img">
+    <h1 class="site-title">Easy Music</h1>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="playlists.html">Playlists</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <div class="container mt-4">
+    <h1 class="text-center my-4">About</h1>
+    <p class="lead text-center">
+      Easy Music is a website that helps you discover songs, albums, artists, and create playlists using the <a
+        href="https://developer.spotify.com/documentation/web-api/" target="_blank">Spotify Web
+        API.</a>
+    </p>
+
+    <ul>
+      <li><strong>Home:</strong>
+        <ul>
+          <li>Search through a variety of songs.</li>
+          <li>Songs display title, artist, album, and length.</li>
+          <li>After songs are searched, user can choose to add from the list of songs to their playlist.</li>
+          <li>Once songs are added, they can be removed using the red button.</li>
+          <li>Playlists will require a name to be saved locally.</li>
+        </ul>
+      </li>
+      <li><strong>Playlists:</strong>
+        <ul>
+          <li>Allows viewing of all saved playlists.</li>
+          <li>Once a playlist is saved, users can export them to their device.</li>
+          <li>User can load and edit existing playlists by clicking the load button.</li>
+          <li>Playlists can be deleted as needed.</li>
+          <li>Import playlists from JSON files to be edited or viewed.</li>
+        </ul>
+      </li>
+      <li><strong>About:</strong>
+        <ul>
+          <li>Gives information about the website as a whole.</li>
+          <li>Helps user understand how to use website.</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
