@@ -34,7 +34,7 @@ async function generateCodeChallenge(codeVerifier) {
 //First call to login to api to grab songs
 function initiateLogin() {
     const clientId = '3755714b96e4459f8c6da0a7fdc46954';
-    const redirectUri = 'http://127.0.0.1:5500/';
+    const redirectUri = 'https://w3stu.cs.jmu.edu/fuentejx/cs343/project/src/';
     const scope = 'user-read-private user-read-email';
 
     const codeVerifier = generateRandomString(128);
@@ -73,7 +73,7 @@ async function handleRedirectCallback() {
     if (!code) return;
 
     const clientId = '3755714b96e4459f8c6da0a7fdc46954';
-    const redirectUri = 'http://127.0.0.1:5500/';
+    const redirectUri = 'https://w3stu.cs.jmu.edu/fuentejx/cs343/project/src/';
     const codeVerifier = localStorage.getItem('code_verifier');
 
     const body = new URLSearchParams({
